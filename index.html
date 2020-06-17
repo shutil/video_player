@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.2/plyr.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center><h1>video player</h1></center>
+    <div class="container">
+        <video id="player" controls preload="none">
+            <source src='video.mp4' type='video/mp4'>
+            <source src='video.webm' type='video/webm'>
+            <source src='video.ogv' type='video/ogg'>
+            <source src='video.wmv' type='video/x-ms-wmv'>
+            <source src='video.3gp' type='video/3gpp'>
+        </video>
+        <br>
+        <video id="player2" controls preload="none">
+            <source src='v1.mp4' type='video/mp4'>
+            <source src='v1.webm' type='video/webm'>
+            <source src='v1.ogv' type='video/ogg'>
+            <source src='v1.wmv' type='video/x-ms-wmv'>
+            <source src='v1.3gp' type='video/3gpp'>
+        </video>
+        <br>
+        <video id="player3" controls preload="none">
+            <source src='./Aerial Shot Of Snowy Mountain.mp4' type='video/mp4'>
+            <source src='./Aerial Shot Of Snowy Mountain.mp4' type='video/webm'>
+            <source src='./Aerial Shot Of Snowy Mountain.mp4' type='video/ogg'>
+            <source src='./Aerial Shot Of Snowy Mountain.mp4' type='video/x-ms-wmv'>
+            <source src='./Aerial Shot Of Snowy Mountain.mp4' type='video/3gpp'>
+        </video>
+        <br>
+        <video id="player4" controls preload="none">
+            <source src='video.mp4' type='video/mp4'>
+            <source src='video.webm' type='video/webm'>
+            <source src='video.ogv' type='video/ogg'>
+            <source src='video.wmv' type='video/x-ms-wmv'>
+            <source src='video.3gp' type='video/3gpp'>
+        </video>
+        <br>
+        <video id="player5" controls preload="none">
+            <source src='v1.mp4' type='video/mp4'>
+            <source src='v1.webm' type='video/webm'>
+            <source src='v1.ogv' type='video/ogg'>
+            <source src='v1.wmv' type='video/x-ms-wmv'>
+            <source src='v1.3gp' type='video/3gpp'>
+        </video>
+        <br>
+        <video id="player6" controls preload="none">
+            <source src='./Aerial Shot Of Snowy Mountain.mp4' type='video/mp4'>
+            <source src='./Aerial Shot Of Snowy Mountain.mp4' type='video/webm'>
+            <source src='./Aerial Shot Of Snowy Mountain.mp4' type='video/ogg'>
+            <source src='./Aerial Shot Of Snowy Mountain.mp4' type='video/x-ms-wmv'>
+            <source src='./Aerial Shot Of Snowy Mountain.mp4' type='video/3gpp'>
+        </video>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.2/plyr.js"></script>
+    <script>
+        new Plyr('#player');
+        new Plyr('#player2');
+        new Plyr('#player3');
+        new Plyr('#player4');
+        new Plyr('#player5');
+        new Plyr('#player6');
+    </script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
